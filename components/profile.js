@@ -4,7 +4,7 @@ function Profile(props) {
 	return (
 		<section className="tc ph1-l mb3-l dib dim">
 			<article className="hide-child relative h4-ns br2 overflow-hidden center">
-				<img src={"members/"+ props.officer.name +".jpeg"} className="dib-ns v-mid db w4-ns" alt={"Photo of" + props.officer.name} />
+				<img src={"members/"+ props.officer.name +".jpeg"} className="dib-ns v-mid db w4-ns" alt={"Photo of " + props.officer.name} />
 				<div className="pa0-ns pa2 w4-ns dib-ns v-mid">
 					<a className="f6 db link dark-blue hover-blue" href="#">{props.officer.name}</a>
 					<p className="f6 gray mv1">{props.officer.position}</p>
