@@ -9,7 +9,7 @@ function Committee(props) {
 				<div className="dib-l v-top w-60-l mw7-l pa1">
 					{props.comm.officers.map(officer => <Profile officer={officer}/>)}
 				</div>
-				<div className="w-40-l pa1 dib-l v-top">
+				<div className="w-40-l pa1 dib-l db-m dn v-top">
 					<img src={"committees/"+ props.comm.name +".jpg"} className="w-100 br2" alt="Photo of Execs" />
 				</div>
 				
