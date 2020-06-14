@@ -12,6 +12,10 @@ const Members = [
 				"position": "Vice President"
 			},
 			{
+				"name": "Naomi Sagan",
+				"position": "Alumni Relations"
+			},
+			{
 				"name": "Jack Wang",
 				"position": "Recording Secretary"
 			},
@@ -22,10 +26,6 @@ const Members = [
 			{
 				"name": "Rehan Durrani",
 				"position": "Department Relations"
-			},
-			{
-				"name": "Naomi Sagan",
-				"position": "Alumni Relations"
 			},
 			{
 				"name": "Srinath Goli",
